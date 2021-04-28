@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <link rel="icon" type="image/png" href="/app/assets/img/favicon.png" />
+
+  </head>
+
+
+  <%= require('html-loader!./assets/html/navbar.html') %>
+
+
+
+<div class="page-container" id="home">
+
+
+      <div class=" ">
+
+
+        <div class="title has-text-centered is-hidden-mobile">Shift 0xBitcoin and Ether</div>
+
+        <div class="whitespace-sm"></div>
+
+      </div>
+
+      <section class="hero orange-theme ">
+        <div class="hero-body">
+          <div class="  has-text-centered">
+
+
+            <div class="columns">
+
+              <div class="column">
+
+              </div>
+
+              <div class="column">
+
+
+
+              </div>
+
+            </div>
+
+
+
+
+
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+      <div id="guide" class="box has-text-centered orange-theme ">
+
+        <div class="columns">
+
+              <div class="column">
+
+
+              </div>
+
+
+              <div class="column">
+
+              </div>
+
+
+          </div>
+
+      </div>
+
+
+
+
+      <div id="about" class="box has-text-centered">
+
+        <div class='title'>   </div>
+
+     
+
+          <div class="whitespace-md"></div>
+
+
+
+      </div>
+
+
+  </div>
+
+
+
+      <%= require('html-loader!./assets/html/footer.html') %>
+
+
+      <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647;"><i class="icon-arrow-up"></i></a>
+
+  </body>
+</html>
